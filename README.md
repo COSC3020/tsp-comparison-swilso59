@@ -22,3 +22,7 @@ Local Search found. Why is this?
 
 Add the code to run your experiments, graphs, and an explanation of what you did
 to this markdown file.
+
+## Answer 
+
+I ran both these algorithms on different size distance matrices. Starting from $1 \times 1$ and going up to $19 \times 19$. I could not get my program to run for an hour because for a $20 \times 20$ matrix I let it run overnight. The program ran for over 12 hours and did not find a result. I then commented out the tsp_Hk function to see how large I would have to make the distance matrice to get it to run for an hour. However, based on the result comparison between diatance matrices of length 1-19 I would safely assume the result is not accurate because as we increase the number of cities we can see the increase in difference between the tsp_hk and tsp_local results.    
